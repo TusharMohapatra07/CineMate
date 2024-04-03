@@ -25,4 +25,5 @@ Feel free to explore the app, search for different movies, and discover new and 
 
 ## Preview:
 
-![image](https://github.com/TusharMohapatra07/cinemate/assets/137442734/92f13753-47b8-4bbb-884a-1ee46e35f52e)
+![image](https://github.com/TusharMohapatra07/cinemate/assets/137442734/55e3189d-94df-4b77-8dd6-0c33ff2d347b)
+
