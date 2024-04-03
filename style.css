@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --secondary-color: #0d0e0e;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary-color);
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(245, 245, 245, 0.1);
+}
+
+.header__logo {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+.header__input {
+  height: 1.85rem;
+  width: 20rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+
+.header__input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.header__search {
+  transform: translateX(-110%) translateY(10%);
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main__movie {
+  width: 15rem;
+  margin: 1rem;
+  background-color: rgba(245, 245, 245, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.2rem;
+}
+
+.main__movie img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.movie__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.3rem;
+}
+
+.movie__info span {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  margin-left: 0.25rem;
+}
+
+.movie__info span.green {
+  color: #0bda51;
+}
+
+.movie__info span.yellow {
+  color: #ffc000;
+}
+
+.movie__info span.red {
+  color: #e34234;
+}
+
+.movie__overview {
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 100%;
+  transform: translateY(98%);
+  transition: transform 500ms ease-in-out;
+}
+
+.main__movie:hover .movie__overview {
+  transform: translate(0%);
+}
+
+.main__warn {
+  color: white;
+  margin: 2rem auto;
+}
