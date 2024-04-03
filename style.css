@@ -117,12 +117,14 @@ body {
   transform: translate(0%);
 }
 
+.main__warn {
+  color: white;
+  margin: 2rem auto;
+}
+
+
 @media screen and (max-width: 400px) {
   .header__logo {
     margin-right: 0.25rem;
   }
-}
-.main__warn {
-  color: white;
-  margin: 2rem auto;
 }
