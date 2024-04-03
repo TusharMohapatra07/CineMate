@@ -23,3 +23,6 @@ To use Cinemate, Enter the title of the movie you wish to search for in the prov
 
 Feel free to explore the app, search for different movies, and discover new and exciting films!
 
+## Preview:
+
+![image](https://github.com/TusharMohapatra07/cinemate/assets/137442734/92f13753-47b8-4bbb-884a-1ee46e35f52e)
