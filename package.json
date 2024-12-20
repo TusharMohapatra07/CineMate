@@ -1,0 +1,16 @@
+{
+  "name": "cinemate",
+  "version": "1.0.0",
+  "description": "Cinemate is a movie search web application built using HTML, CSS, and JavaScript. The primary functionality of the app is to search for movies by their title. Upon entering a search query, the app displays relevant movie results along with essential details such as the movie title, poster, rating, and a brief description. Please note that the app only displays the top 20 results for a given search query.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
